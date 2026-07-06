@@ -1,0 +1,16 @@
+# Dependencias del proyecto Taller_XAI
+# Entorno probado con Python 3.9
+#
+# Uso:
+#   python3 -m venv .venv
+#   source .venv/bin/activate
+#   pip install -r requirements.txt
+
+# Manipulación y análisis de datos
+pandas
+
+# Visualización
+matplotlib
+
+# Modelado
+scikit-learn

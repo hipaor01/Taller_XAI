@@ -1,0 +1,45 @@
+# --- Entornos virtuales ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.Python
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# --- Herramientas / caché ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipython/
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Editores / IDEs ---
+.vscode/
+.idea/
+*.swp
+
+# --- Datos y modelos (descomenta si no quieres versionarlos) ---
+# Los CSV grandes de datos suelen NO subirse al repositorio.
+# DataDictionary.csv es metadatos y probablemente sí quieras mantenerlo.
+# cs_construccion.csv
+# cs_produccion.csv
+# *.pkl
+# *.joblib
+# *.h5
