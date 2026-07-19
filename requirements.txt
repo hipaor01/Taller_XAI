@@ -1,16 +1,26 @@
 # Dependencias del proyecto Taller_XAI
-# Entorno probado con Python 3.9
+# Entorno reproducido con Python 3.12.9
 #
 # Uso:
 #   python3 -m venv .venv
 #   source .venv/bin/activate
 #   pip install -r requirements.txt
 
+# Entorno del notebook
+ipython==9.5.0
+ipykernel==6.30.1
+jupyterlab==4.4.9
+
 # Manipulación y análisis de datos
-pandas
+numpy==2.1.3
+pandas==3.0.3
 
 # Visualización
-matplotlib
+matplotlib==3.10.9
+seaborn==0.13.2
+shap==0.52.0
 
 # Modelado
-scikit-learn
+scikit-learn==1.7.1
+lightgbm==4.6.0
+space-bandits==0.0.993
